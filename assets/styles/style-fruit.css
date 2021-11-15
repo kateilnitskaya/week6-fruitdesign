@@ -1,0 +1,15 @@
+.header {
+    display: grid;
+
+}
+
+.logo {
+    display: grid;
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+    color: #233506;
+    height: 19px;
+    width: 95px;
+    grid-template-columns: 373px;
+    grid-template-rows: 62px;
+}
