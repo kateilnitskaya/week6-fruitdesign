@@ -5,6 +5,7 @@
 
 .header {
     display: grid;
+    background-color: rgba(56, 88, 4, 0.08);
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 100px;
 }
@@ -84,4 +85,57 @@
 
     grid-column: 4/5;
     grid-row: 1/2;
+}
+
+.menuelement {
+    display: grid;
+    width: 37.5px;
+    height: 11px;
+    padding: 12px;
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.main1 {
+    display: grid;
+    background-color: rgba(56, 88, 4, 0.08);
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    padding: 110px;
+}
+
+.h1 {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    color: rgba(38, 49, 59, 1);
+    font-weight: 700;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.text1 {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: rgba(38, 49, 59, 1);
+    font-weight: 400;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.img1 {
+    display: grid;
+    width: 680px;
+    height: 902px;
+
+    grid-column: 2/3;
+    grid-row: 1/4;
+    padding-left: 310px;
 }
