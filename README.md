@@ -1,1 +1,1 @@
-# week6-fruitdesign
+# week6-furniture
