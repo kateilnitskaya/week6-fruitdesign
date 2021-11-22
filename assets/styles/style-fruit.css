@@ -306,9 +306,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
     grid-template-rows: 200px 200px;
-    margin-left: 96px;
-    margin-right: 96px;
-    margin-bottom: 50px;
+    background-color: rgba(56, 88, 4, 0.08);
 }
 
 .menu-footer {
@@ -321,27 +319,25 @@
     font-weight: 400;
     text-align: start;
     line-height: 33px;
+    margin-left: 125px;
 }
 
 .services {
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 200px;
-    background-color: magenta;
+    width: 225px;
 }
 
 .menu2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 200px;
+    width: 225px;
 }
 
 .help {
     grid-column: 3/4;
     grid-row: 1/2;
-    width: 200px;
-
-    background-color: lightsalmon;
+    width: 225px;
 }
 
 .join {
@@ -358,9 +354,7 @@
     grid-row: 1/2;
 
     margin-top: 15px;
-    margin-left: 150px;
-
-    background-color: lightgreen;
+    margin-left: 100px;
 }
 
 .email {
@@ -380,11 +374,8 @@
     grid-row: 2/3;
 
     margin-top: -75px;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-right: -30px;
-
-
-    background-color: lightcoral;
 }
 
 .footerelement1 {
@@ -394,7 +385,7 @@
     grid-column: 4/5;
     grid-row: 3/4;
     margin-top: -220px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .footerelement2 {
@@ -404,6 +395,6 @@
     grid-row: 2/3;
 
     margin-top: -83px;
-    margin-right: 70px;
+    margin-right: 200px;
 
 }
