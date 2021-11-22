@@ -175,7 +175,7 @@
 .main2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 400px 210px 60px;
+    grid-template-rows: 400px 210px 200px;
 }
 
 .h2 {
@@ -291,4 +291,36 @@
 
     grid-column: 4/5;
     grid-row: 3/4;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.menu-footer {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(19, 19, 19, 1);
+    font-weight: 400;
+    text-align: center;
+    line-height: 33px;
+}
+
+/*.h4 {
+    font-weight: 600;
+}*/
+
+.services {
+    grid-column: 1/2;
+    grid-row: 1/7;
+}
+
+.menu2 {
+    grid-column: 2/3;
+    grid-row: 1/7;
 }
