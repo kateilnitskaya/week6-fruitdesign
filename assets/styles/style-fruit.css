@@ -1,6 +1,7 @@
 .body {
     height: 1017px;
     width: 1440px;
+    /*width: 1125px;*/
     align-content: stretch;
     justify-content: stretch;
 }
@@ -148,7 +149,7 @@
 
     grid-column: 3/4;
     grid-row: 1/4;
-    margin-right: -110px;
+    margin-right: -100px;
 }
 
 .buttonpro {
@@ -174,7 +175,7 @@
 .main2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 400px 210px 60px;
 }
 
 .h2 {
@@ -197,26 +198,39 @@
 
 .img-living {
     display: grid;
+    width: 219px;
+    height: 219px;
     grid-column: 1/2;
     grid-row: 2/3;
+    justify-items: center;
+    justify-self: center;
 }
 
 .img-bath {
     display: grid;
+    width: 219px;
+    height: 219px;
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-self: center;
 }
 
 .img-terrace {
     display: grid;
+    width: 219px;
+    height: 219px;
     grid-column: 3/4;
     grid-row: 2/3;
+    justify-self: center;
 }
 
 .img-kitchen {
     display: grid;
+    width: 219px;
+    height: 219px;
     grid-column: 4/5;
     grid-row: 2/3;
+    justify-self: center;
 }
 
 .living {
@@ -228,6 +242,7 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     text-align: center;
+    line-height: 42px;
 
     grid-column: 1/2;
     grid-row: 3/4;
@@ -242,6 +257,7 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     text-align: center;
+    line-height: 42px;
 
     grid-column: 2/3;
     grid-row: 3/4;
@@ -256,6 +272,7 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     text-align: center;
+    line-height: 42px;
 
     grid-column: 3/4;
     grid-row: 3/4;
@@ -270,6 +287,7 @@
     color: rgba(0, 0, 0, 1);
     font-weight: 700;
     text-align: center;
+    line-height: 42px;
 
     grid-column: 4/5;
     grid-row: 3/4;
