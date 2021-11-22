@@ -204,6 +204,7 @@
     grid-row: 2/3;
     justify-items: center;
     justify-self: center;
+    margin-left: 96px;
 }
 
 .img-bath {
@@ -212,6 +213,7 @@
     height: 219px;
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-items: center;
     justify-self: center;
 }
 
@@ -221,6 +223,7 @@
     height: 219px;
     grid-column: 3/4;
     grid-row: 2/3;
+    justify-items: center;
     justify-self: center;
 }
 
@@ -230,7 +233,9 @@
     height: 219px;
     grid-column: 4/5;
     grid-row: 2/3;
+    justify-items: center;
     justify-self: center;
+    margin-right: 96px;
 }
 
 .living {
@@ -246,6 +251,8 @@
 
     grid-column: 1/2;
     grid-row: 3/4;
+
+    margin-left: 96px;
 }
 
 .bath {
@@ -291,12 +298,17 @@
 
     grid-column: 4/5;
     grid-row: 3/4;
+
+    margin-right: 96px;
 }
 
 .footer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+    grid-template-rows: 200px 200px;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-bottom: 50px;
 }
 
 .menu-footer {
@@ -307,20 +319,91 @@
     font-size: 22px;
     color: rgba(19, 19, 19, 1);
     font-weight: 400;
-    text-align: center;
+    text-align: start;
     line-height: 33px;
 }
 
-/*.h4 {
-    font-weight: 600;
-}*/
-
 .services {
     grid-column: 1/2;
-    grid-row: 1/7;
+    grid-row: 1/2;
+    width: 200px;
+    background-color: magenta;
 }
 
 .menu2 {
     grid-column: 2/3;
-    grid-row: 1/7;
+    grid-row: 1/2;
+    width: 200px;
+}
+
+.help {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 200px;
+
+    background-color: lightsalmon;
+}
+
+.join {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    text-align: start;
+    line-height: 72px;
+
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+    margin-top: 15px;
+    margin-left: 150px;
+
+    background-color: lightgreen;
+}
+
+.email {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    text-align: start;
+    line-height: 39px;
+
+    height: 46px;
+    width: 341px;
+
+    grid-column: 4/5;
+    grid-row: 2/3;
+
+    margin-top: -75px;
+    margin-left: 150px;
+    margin-right: -30px;
+
+
+    background-color: lightcoral;
+}
+
+.footerelement1 {
+    width: 299px;
+    height: 0px;
+    border: 1px solid;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-top: -220px;
+    margin-left: 150px;
+}
+
+.footerelement2 {
+    width: 65px;
+    height: 65px;
+    grid-column: 5/6;
+    grid-row: 2/3;
+
+    margin-top: -83px;
+    margin-right: 70px;
+
 }
