@@ -21,9 +21,10 @@
 
 .menu {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat (5, 1fr);
     grid-template-rows: 100px;
-    padding: 66px
+    padding: 66px;
+    gap: 55px;
 }
 
 .home {
