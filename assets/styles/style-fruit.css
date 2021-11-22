@@ -1,6 +1,6 @@
 .header {
     display: grid;
-    grid-template-columns: repeat (6, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px;
 }
 
@@ -10,39 +10,68 @@
     width: 64px;
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 96px;
+    padding: 51px;
 }
 
-.home .product .about .manufacturing {
+.home {
     display: grid;
     font-family: 'Poppins', sans-serif;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-size: 22px;
     color: rgba(0, 0, 0, 1);
-}
-
-.product .about .manufacturing {
-    font-weight: 400;
-}
-
-.home {
     font-weight: 600;
 
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 66px;
 }
 
 
 .product {
     display: grid;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 66px;
 }
 
 .about {
     display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 66px;
 }
 
 .manufacturing {
     display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+
+    grid-column: 5/6;
+    grid-row: 1/2;
+    padding: 66px;
 }
